@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template: 
+        "red blue blue ."
+        "green . pink pink"
+        "green yellow yellow yellow";
+    width: 600px;
+    height: 300px;
+    gap: 10px;
+}
+.card {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red {
+    background-color: red;
+    grid-area: red;
+}
+
+.blue {
+    background-color: blue;
+    grid-area: blue;
+}
+.green {
+    background-color: green;
+    grid-area: green;
+}
+.pink {
+    background-color: pink;
+    grid-area: pink;
+}
+.yellow {
+    background-color: yellow;
+    grid-area: yellow;
+}
